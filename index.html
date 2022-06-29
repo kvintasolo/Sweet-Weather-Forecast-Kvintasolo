@@ -10,36 +10,78 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&family=Quicksand:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="src/style.css" />
     <title>SweetWeather🌞💧🌈</title>
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
         <div class="weather-app">
-      <div class="row">
-        <div class="col-md-8">
-          <ul>
-            <li><h4>Monday 15:22</h4></li>
-            <li><h1>Kyiv, Ua</h1></li>
-          </ul>
+          <div class="row">
+            <div class="col-md-7">
+              <ul>
+                <li><h4 id="date">Monday 15:22</h4></li>
+                <li><h1>Kyiv, Ua</h1></li>
+              </ul>
+            </div>
+            <div class="col-5">
+              <form class="search-form" id="search-form">
+                <div class="form-inline">
+                  <input
+                    type="search"
+                    placeholder="Type a city..."
+                    autofocus="on"
+                    autocomplete="off"
+                    class="form-control shadow-sm border-0"
+                    id="city-input"
+                  />
+                  <input
+                    type="submit"
+                    value="🔍"
+                    class="form-control btn btn-light shadow-sm"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5" id="temperature">
+              <span id="todayTemp">12</span>
+              °C|<a href="#" id="fahrenheit-link">°F</a>
+            </div>
+            <div class="col-md-3">
+              <img
+                src="images/suncloud.png"
+                alt="SunCloud"
+                class="main-image"
+              />
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Clouds</li>
+                <li>Humidity</li>
+                <li>Wind</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <small
+          ><a
+            href="https://github.com/kvintasolo/Sweet-Weather-Forecast-Kvintasolo/commits/main"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Anna Stratanovych</small
+        >
       </div>
-      <div class="row">
-        <div class="col-md-4">12°C|<a href="#" id="fahrenheit-link">°F</a></div>
-        <div class="col-md-4">
-          <img src="images/suncloud.png" />
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li>Clouds</li>
-            <li>Humidity</li>
-            <li>Wind</li>
-          </ul>
-        </div>
-      </div>
-      <small><a href="https://github.com/kvintasolo/Sweet-Weather-Forecast-Kvintasolo/commits/main" target="_blank">Open-source code</a> by Anna Stratanovych</a></small>
-    </div>
     </div>
     <script src="src/script.js"></script>
   </body>
