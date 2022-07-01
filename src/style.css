@@ -54,9 +54,17 @@ li:first-letter {
 }
 .form-control {
   background: #f9f7fe;
-  padding:10px;
+  padding: 10px;
 }
-#city-input{
+#city-input {
   margin: 0 10px 0 0;
-  background:#f9f7fe;
+  background: #f9f7fe;
+}
+.active {
+  color: #169cb2;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: #169cb2;
 }
