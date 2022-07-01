@@ -4,6 +4,7 @@ body {
 h1 {
   line-height: 28px;
   font-weight: 100;
+  margin: 30px 0;
 }
 ul {
   margin: 10px 0;
@@ -38,7 +39,7 @@ li {
 }
 #temperature {
   margin: 15px 0;
-  text-align:center;
+  text-align: center;
 }
 .units {
   position: relative;
@@ -50,4 +51,12 @@ li {
 }
 li:first-letter {
   text-transform: capitalize;
+}
+.form-control {
+  background: #f9f7fe;
+  padding:10px;
+}
+#city-input{
+  margin: 0 10px 0 0;
+  background:#f9f7fe;
 }
