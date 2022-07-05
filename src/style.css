@@ -2,7 +2,7 @@ body {
   background-color: #f9f7fe;
 }
 h1 {
-  line-height: 28px;
+  line-height: 38px;
   font-weight: 100;
   margin: 30px 0;
 }
@@ -67,4 +67,36 @@ li:first-letter {
 .active:hover {
   text-decoration: none;
   color: #169cb2;
+}
+
+.card-img-bottom {
+  max-width: 50px;
+  margin: 0 5px 7px auto;
+}
+.card {
+  border-radius: 20px;
+  color: #169cb2;
+  background-color: #f9f7fe;
+}
+
+.card-body {
+  font-size: 20px;
+  padding: 5px;
+}
+.card-text {
+  margin: 0 auto 0 10px;
+}
+.card-title {
+  font-size: 20px;
+  text-align: center;
+
+  padding: 5px 0;
+  margin: 0 0 5px 0;
+}
+.temperature-forecast-min {
+  opacity: 0.7;
+}
+
+.card-deck {
+  margin-bottom: 30px;
 }
