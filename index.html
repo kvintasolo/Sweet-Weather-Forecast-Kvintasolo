@@ -26,17 +26,17 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6" id="head">
               <ul>
                 <li>
-                  <h4>Last apdated: <span id="date"></span></h4>
+                  <h4><span id="date"></span></h4>
                 </li>
                 <li>
                   <h1><span id="city"></span> <span id="country"></span></h1>
                 </li>
               </ul>
             </div>
-            <div class="col-5">
+            <div class="col-6">
               <form class="mt-2" id="search-form">
                 <div class="form-inline">
                   <input
@@ -51,7 +51,14 @@
                     type="submit"
                     value="🔍"
                     class="form-control btn btn-light shadow-sm"
+                    id="search-button"
                   />
+                  <button
+                    class="btn btn-light w-100 shadow-sm"
+                    id="current-location-button"
+                  >
+                    🚩
+                  </button>
                 </div>
               </form>
             </div>
@@ -75,21 +82,20 @@
               <ul class="features">
                 <li id="description"></li>
                 <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
               </ul>
             </div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
-          
-          <small
-            ><a
-              href="https://github.com/kvintasolo/Sweet-Weather-Forecast-Kvintasolo/commits/main"
-              target="_blank"
-              >Open-source code</a
-            >
-            by Anna Stratanovych</small
-          >
         </div>
+        <small
+          ><a
+            href="https://github.com/kvintasolo/Sweet-Weather-Forecast-Kvintasolo/commits/main"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Anna Stratanovych</small
+        >
       </div>
     </div>
     <script src="src/script.js"></script>

@@ -18,6 +18,12 @@ li {
   font-weight: 100;
   line-height: 30px;
 }
+small {
+  padding: 0 30px;
+}
+#head {
+  padding: 0 0 0 60px;
+}
 .weather-app-wrapper {
   max-width: 800px;
   margin: 80px auto;
@@ -99,4 +105,21 @@ li:first-letter {
 
 .card-deck {
   margin-bottom: 30px;
+}
+#current-location-button {
+  max-width: 50px;
+  background-color: #f9f7fe;
+  margin: 0 0 0 10px;
+}
+#search-button
+ {
+  text-align: center;
+  line-height: 1;
+}
+
+#search-button.selected {
+  color: red;
+}
+#search-form{
+  margin: 0 0 0 30px;
 }
