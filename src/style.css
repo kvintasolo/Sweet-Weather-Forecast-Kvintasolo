@@ -2,7 +2,8 @@ body {
   background-color: #f9f7fe;
 }
 h1 {
-  line-height: 38px;
+  line-height: 1;
+  font-size: 60px;
   font-weight: 100;
   margin: 30px 0;
 }
@@ -48,7 +49,7 @@ small {
 
 .units {
   position: relative;
-  top: -85px;
+  top: -90px;
   font-size: 25px;
 }
 #main-image {
@@ -125,7 +126,4 @@ li:first-letter {
 }
 .features {
   margin: 15px;
-}
-#city {
-  font-size: 60px;
 }
