@@ -6,6 +6,9 @@ h1 {
   font-weight: 100;
   margin: 30px 0;
 }
+h4 {
+  margin: 15px 0;
+}
 ul {
   margin: 10px 0;
   padding: 0;
@@ -22,7 +25,7 @@ small {
   padding: 0 30px;
 }
 #head {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 40px;
 }
 .weather-app-wrapper {
   max-width: 800px;
@@ -37,23 +40,20 @@ small {
   color: #169cb2;
 }
 .temperature {
-  margin: 35px 0 40px 20px;
-  padding: 0;
+  padding: 0 20px;
 
-  font-size: 100px;
+  font-size: 155px;
   line-height: 1;
 }
-#temperature {
-  margin: 15px 0;
-  text-align: center;
-}
+
 .units {
   position: relative;
-  top: -50px;
+  top: -85px;
   font-size: 25px;
 }
 #main-image {
   text-align: center;
+  padding: 0 0 20px 0;
 }
 li:first-letter {
   text-transform: capitalize;
@@ -86,7 +86,7 @@ li:first-letter {
 }
 
 .card-body {
-  font-size: 15px;
+  font-size: 20px;
   padding: 5px;
 }
 .card-text {
@@ -111,15 +111,21 @@ li:first-letter {
   background-color: #f9f7fe;
   margin: 0 0 0 10px;
 }
-#search-button
- {
+#search-button {
   text-align: center;
   line-height: 1;
 }
 
-#search-button.selected {
-  color: red;
-}
-#search-form{
+#search-form {
   margin: 0 0 0 30px;
+}
+.img-forecast {
+  max-width: 70px;
+  margin: 0 5px 7px auto;
+}
+.features {
+  margin: 15px;
+}
+#city {
+  font-size: 60px;
 }
